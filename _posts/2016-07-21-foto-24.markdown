@@ -1,0 +1,9 @@
+---
+layout: default
+modal-id: 24
+date: "2016-07-21 15:15:47 -0500"
+img: 24p.jpg
+alt: image-alt
+category: Fotografía
+description: "\"De masa de ma&iacute;z se hicieron los brazos y las piernas del hombre.\""
+---
