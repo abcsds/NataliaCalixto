@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 2
-date: "2016-07-21 15:15:26 -0500"
-img: 2p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Vieron y al punto se extendi&oacute; su vista, alcanzaron a ver, alcanzaron a conocer todo lo que hay en el mundo.\""
----

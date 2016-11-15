@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 4
-date: "2016-07-21 15:15:25 -0500"
-img: 4p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Y de &eacute;sta manera se llenaron de alegr&iacute;a, porque hab&iacute;an descubierto una hermosa tierra.\""
----

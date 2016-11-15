@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 16
-date: "2016-07-21 15:15:39 -0500"
-img: 16p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Lleg&oacute; aqu&aacute; entonces la palabra.\""
----

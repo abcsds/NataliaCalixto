@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 25
-date: "2016-07-21 15:15:48 -0500"
-img: 25p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Y por esta raz&oacute;n el mono se parece al hombre.\""
----

@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 9
-date: "2016-07-21 15:15:32 -0500"
-img: 9p.jpg
-alt: image-alt
-category: Fotografía
-description:
----

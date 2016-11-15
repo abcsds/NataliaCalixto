@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 15
-date: "2016-07-21 15:15:38 -0500"
-img: 15p.jpg
-alt: image-alt
-category: Fotografía
-description:
----

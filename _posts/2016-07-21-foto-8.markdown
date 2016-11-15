@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 8
-date: "2016-07-21 15:15:31 -0500"
-img: 8p.jpg
-alt: image-alt
-category: Fotografía
-description:
----

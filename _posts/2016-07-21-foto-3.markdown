@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 3
-date: "2016-07-21 15:15:27 -0500"
-img: 3p.jpg
-alt: image-alt
-category: Fotografía
-description: 
----

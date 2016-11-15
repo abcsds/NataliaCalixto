@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 19
-date: "2016-07-21 15:15:42 -0500"
-img: 19p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Como la neblina, como la nube y como una polvareda fue la creaci&oacute;n\""
----

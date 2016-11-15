@@ -1,9 +1,0 @@
----
-layout: default
-modal-id: 1
-date: "2016-07-21 15:15:25 -0500"
-img: 1p.jpg
-alt: image-alt
-category: Fotografía
-description: "\"Esta es la primera relación, el primer discurso.\""
----
