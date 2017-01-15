@@ -1,0 +1,30 @@
+// Variables
+// Colors
+$text-color:       #585858;
+$background-dark:  #D6E9E4;
+$background-light: #EDF4F2;
+$link-color:       #939597;
+$details-color:    #A7A9AB;
+
+// Typography
+$base-font-family: "Ayuthaya";
+@font-face {
+  font-family: $base-font-family;
+  src: url("/static/fonts/Ayuthaya.ttf") format("truetype");
+}
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+$nav-height:       22px;
+$section-height:   600px;
+
+// Transitions
+$transition-normal: 0.35s ease;
+
+// Media query sizes
+$on-mobile:        320px;  // xsm
+$on-palm:          480px;  // sm
+$on-tablet:        768px;  // md
+$on-laptop:        992px;  // lg
+$on-desktop:       1200px; // xlg

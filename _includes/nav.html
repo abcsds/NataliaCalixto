@@ -1,0 +1,16 @@
+<nav>
+  <div class="site-title">
+    <a href="http://{{ site.url }}">
+      {{ site.title }}
+    </a>
+  </div>
+
+  <div class="nav-menu">
+      <a class="page-link" href="http://{{ site.url }}">Home</a>
+      {% for sect in site.sections %}
+        <a class="page-link" href="{{ sect.link }}">{{ sect.name }}</a>
+      {% endfor %}
+  </div><!-- /.nav-menu -->
+
+  <a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></a>
+</nav>

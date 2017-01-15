@@ -1,0 +1,51 @@
+// Mixins
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
+@mixin media-large-print {
+  @media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+    // Style adjustments for high resolution devices
+    @content;
+  }
+}
+
+@mixin transition-all() {
+  -webkit-transition: all $transition-normal;
+  -moz-transition: all $transition-normal;
+  transition: all $transition-normal;
+}
+
+@mixin background-cover() {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+@mixin sans-serif-font() {
+  font-family: $base-font-family, Arial, Helvetica, sans-serif;
+}
+
+@mixin serif-font() {
+  font-family: Georgia, Times, serif;
+}
+
+@mixin box-shadow($shadows...) {
+  -moz-box-shadow: $shadows;
+  -webkit-box-shadow: $shadows;
+  box-shadow: $shadows;
+}

@@ -1,31 +1,32 @@
-# Site settings
+# Site description
 title: Natalia Calixto
-url: https://NataliaCalixto.com
+url: NataliaCalixto.com
 description: "Work of Natalia Calixto"
+image: "http://hexecontahedron.com/static/img/hexe-small.png" # TODO
 keywords: "Architecture, Photography"
 author: Alberto Barradas
-
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: C43F1D #076519
-  primary-rgb: "230, 136, 84" #"rgb(24,288,156)"
-  secondary: 4B3C08 #233140
-  secondary-dark: 857130 #2c3e50
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: https://www.facebook.com/nat.ccs.9
-  - title: email
-    url: mailto:nat.ccs14@gmail.com
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Le&oacute;n M&eacute;xico
-
-# Credits content
 credits: 'Handcrafted by <a href="http://github.com/abcsds">Alberto Barradas</a>'
+sections:
+  - name: Architecture
+    link: arch.html
+  - name: Photography
+    link: photo.html
+
+# Social
+name: Natalia Calixto
+email: nat.ccs14@gmail.com
+# twitter_username: ""
+# github_username:  ""
+# googlep_username: ""
+# personal_website: "http://NataliaCalixto.com"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+sass:
+  sass_dir: _sass
+  style: :compressed
+static_folder: "static"
+exclude:
+- README.md
+- CNAME

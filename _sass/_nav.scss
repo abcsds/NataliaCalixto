@@ -1,0 +1,37 @@
+// @import url(http://fonts.googleapis.com/css?family=Raleway);
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  margin-top: 0px;
+  padding: 2px;
+  font-family: $base-font-family;
+  // box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.5);
+  // background: $background-dark;
+  background: white;
+  text-transform: capitalize;
+  z-index: 2;
+
+  .site-title {
+    padding: 2px;
+    margin-left: $base-font-size;
+    display: inline;
+    a {
+      color: $text-color;
+      text-decoration: none;
+    }
+  }
+  .nav-menu {
+    text-align: center;
+    display: inline;
+    float: right;
+    .page-link {
+      transition: $transition-normal;
+      color: $text-color;
+      font-size: $base-font-size;
+      text-decoration: none;
+      padding: 2px 0;
+      margin: 0 20px;
+    }
+  }
+}
