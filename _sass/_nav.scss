@@ -19,6 +19,9 @@ nav {
     a {
       color: $text-color;
       text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
   .nav-menu {
@@ -32,6 +35,12 @@ nav {
       text-decoration: none;
       padding: 2px 0;
       margin: 0 20px;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
+// @include media-query($on-palm) {
+//
+// }

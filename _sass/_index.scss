@@ -9,9 +9,9 @@
     padding-left: 3*$base-font-size;
     font-size: 3*$base-font-size;
     margin: 0;
-    -webkit-text-shadow: 0px 0px 10px 4px rgba(255,255,255,1);
-    -moz-text-shadow: 0px 0px 10px 4px rgba(255,255,255,1);
-    text-shadow: 0px 0px 10px 4px rgba(255,255,255,1);
+    -webkit-text-shadow: 0px 0px 10px rgba(255,255,255,1);
+    -moz-text-shadow: 0px 0px 10px rgba(255,255,255,1);
+    text-shadow: 0px 0px 10px rgba(255,255,255,1);
     z-index: 1;
   }
   canvas {
@@ -33,10 +33,14 @@
       color: white;
       text-decoration: none;
       background-color: $link-color;
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
 #info {
+  background-color: $background-dark;
   .content {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -44,10 +48,43 @@
     padding-left: 100px;
     display: inline;
     width: 70%;
-    background-color: $background-dark;
   }
   .profile-pic {
     display: inline;
-    width: 30%;
+    text-align: center;
+    height: 100%;
+    img {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      max-width: 100%;
+    }
+  }
+}
+#contact {
+  height: 200px;
+  vertical-align: middle;
+  .contact-wrapper {
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    padding-top: 15px;
+    h1 {
+      a {
+        text-decoration: none;
+        padding: 5px;
+        text-align: center;
+        color: $text-color;
+        text-decoration: none;
+        &:hover {
+          text-decoration: underline;
+          color: $text-color;
+        }
+      }
+    }
+    hr {
+      border: 0;
+      height: 1px;
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    }
   }
 }

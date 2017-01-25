@@ -41,14 +41,15 @@ title: Home
       things possible. I will be very glad hearing from you.
     </p>
   </div>
-  <div class="profile-pic col col-4">
-    <img src="{{ site.static_folder }}/img/profile.png" alt="{{ site.name }}" />
+  <div class="profile-pic col col-3">
+    <img src="{{ site.static_folder }}/img/foto.jpg" alt="{{ site.name }}" />
   </div>
 </section>
 
 <section id="contact">
   <div class="contact-wrapper">
-    <a href="mailto:{{ site.email }}">Contact Me</a>
+    <h1><a href="mailto:{{ site.email }}">Contact Me</a></h1>
+    <hr>
   </div>
 </section>
 
@@ -62,12 +63,13 @@ title: Home
   canvas.height = screen.height;
   var width = canvas.width;
   var height = canvas.height;
-  var l = 60;
+  var l = 100;
   ctx.fillStyle = "#D6E9E4";
   ctx.lineWidth = 2;
   ctx.strokeStyle = "white";
   var points   = [];
-  h = l * Math.sqrt(4/5)
+  h = l * Math.sqrt(3/4);
+  console.log(h);
 
   for (var xc = -2*l; xc < width/l; xc++) {
     for (var y = 0; y < height/h; y++) {
@@ -101,7 +103,18 @@ title: Home
       ctx.lineTo(points[shape][5].x,points[shape][5].y);
     }
   }
-  console.log(points[0]);
   ctx.fill();
+  for (shape in points) {
+    // First triangle
+    ctx.moveTo(points[shape][0].x,points[shape][0].y);
+    ctx.lineTo(points[shape][0].x,points[shape][0].y);
+    ctx.lineTo(points[shape][1].x,points[shape][1].y);
+    ctx.lineTo(points[shape][2].x,points[shape][2].y);
+    // Second triangle
+    ctx.moveTo(points[shape][3].x,points[shape][3].y);
+    ctx.lineTo(points[shape][3].x,points[shape][3].y);
+    ctx.lineTo(points[shape][4].x,points[shape][4].y);
+    ctx.lineTo(points[shape][5].x,points[shape][5].y);
+  }
   ctx.stroke();
 </script>
